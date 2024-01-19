@@ -121,6 +121,10 @@ html,body{
         visibility: hidden;
     }
 
+    #box{
+        overflow: hidden;
+    }
+
     #inside #box{
         position: absolute;
         left: 0;

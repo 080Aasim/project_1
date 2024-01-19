@@ -115,6 +115,7 @@ html,body{
     #nav #logo{
         position: absolute;
         left: 0;
+        padding: 0 10px;
     }
 
     #nav #links {

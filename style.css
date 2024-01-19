@@ -127,20 +127,24 @@ html,body{
 
     #inside #box h2{
         padding: 10px 10px;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     #inside #box h5{
         margin-top: 2px;
         padding:0px 20px;
-        font-size: 11px;
-        /* word-wrap: break-word; */
+        font-size: 10px;
     }
 
     #inside input{
         position: absolute;
         top: 80%;
         left: 35%;
+    }
+
+    #main #img{
+        position: absolute;
+        bottom: 15%;
     }
 
 }

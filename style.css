@@ -97,3 +97,50 @@ html,body{
     border-color: transparent;
     width: 100px;
 }
+
+@media (max-width: 500px) {
+    #main{
+        position: relative;
+        padding: 10px 10px;
+    }
+    #inside{
+        position: relative;
+        width: 100%;
+    }
+
+    #nav #logo{
+        position: absolute;
+        left: 0;
+    }
+
+    #nav #links {
+        visibility: hidden;
+    }
+
+    #inside #box{
+        position: absolute;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 ;
+    }
+
+    #inside #box h2{
+        padding: 10px 10px;
+        font-size: 50px;
+    }
+
+    #inside #box h5{
+        margin-top: 2px;
+        padding:0px 20px;
+        font-size: 11px;
+        /* word-wrap: break-word; */
+    }
+
+    #inside input{
+        position: absolute;
+        top: 80%;
+        left: 35%;
+    }
+
+}
